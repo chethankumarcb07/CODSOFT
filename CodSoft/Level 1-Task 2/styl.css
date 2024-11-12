@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #1d3557;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #a8dadc;
+}
+
+/* Hero Section */
+.hero {
+    background: #457b9d;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background: #e63946;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background: #d62828;
+}
+
+/* About Section */
+.about {
+    padding: 3rem 0;
+    background-color: #f1faee;
+    text-align: center;
+}
+
+.about h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Services Section */
+.services {
+    padding: 3rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-box {
+    display: inline-block;
+    width: 30%;
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 3rem 0;
+    background-color: #a8dadc;
+    color: #333;
+    text-align: center;
+}
+
+.testimonials h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #f1faee;
+}
+
+.contact h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #1d3557;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
